@@ -1,0 +1,99 @@
+body {
+    background-image: url(./img/pano\ de\ fundo.img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(237, 223, 223);
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+display: flex;
+justify-content: space-between;
+list-style: none;
+align-items: center;
+padding: 20px
+}
+
+button {
+    background-color:#7c5e99;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px black;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.menu-itens{
+    font-weight: bold;
+}
+
+a {
+    color:rgb(240, 231, 240);
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    border: 5px solid rgb(186, 121, 186);
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 0 10px 10px 10px;
+    border-radius: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color:rgb(186, 121, 186);
+}
+
+h3 {
+    padding: 16px
+}
+
+h3 {
+    color:rgb(186, 121, 186);
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: green;
+}
